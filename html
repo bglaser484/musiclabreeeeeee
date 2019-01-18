@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="musicNotesStyle.css"/>
+        <script src="musicNotesScript.js"></script>
+    </head>
+    <body>
+        <audio id="cAudio">
+            <source src="musicFiles/c_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/c_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/c_note.wav" type="audio/wav"></source>
+        </audio>
+        <audio id="dAudio">
+            <source src="musicFiles/d_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/d_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/d_note.wav" type="audio/wav"></source>
+        </audio>
+        <audio id="eAudio">
+            <source src="musicFiles/e_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/e_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/e_note.wav" type="audio/wav"></source>
+        </audio>
+        <audio id="fAudio">
+            <source src="musicFiles/f_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/f_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/f_note.wav" type="audio/wav"></source>
+        </audio>
+        <audio id="gAudio">
+            <source src="musicFiles/g_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/g_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/g_note.wav" type="audio/wav"></source>
+        </audio>
+        <audio id="aAudio">
+            <source src="musicFiles/a_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/a_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/a_note.wav" type="audio/wav"></source>
+        </audio>   
+        <audio id="bAudio">
+            <source src="musicFiles/b_note.mp3" type="audio/mp3"></source>
+            <source src="musicFiles/b_note.ogg" type="audio/ogg"></source>
+            <source src="musicFiles/b_note.wav" type="audio/wav"></source>
+        </audio>
+       
+        <div id="instrument">
+        <div id="c" class="box" onclick="playTone(getElementById('cAudio'))"></div>
+        <div id="d" class="box" onclick="playTone(getElementById('dAudio'))"></div>
+        <div id="e" class="box" onclick="playTone(getElementById('eAudio'))"></div>
+        <div id="f" class="box" onclick="playTone(getElementById('fAudio'))"></div>
+        <div id="g" class="box" onclick="playTone(getElementById('gAudio'))"></div>
+        <div id="a" class="box" onclick="playTone(getElementById('aAudio'))"></div>
+        <div id="b" class="box" onclick="playTone(getElementById('bAudio'))"></div>
+        </div>
+    </body>
+</html>
